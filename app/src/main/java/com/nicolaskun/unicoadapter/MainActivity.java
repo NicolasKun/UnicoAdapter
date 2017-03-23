@@ -10,7 +10,6 @@ import com.nicolaskun.unicoadapter.fragment.FragmentRecycler;
 
 /**
  * Created by unicolas on 2017/3/20.
- * position : Beijing Xizhimen Street, China
  * 本案例简单封装了Listview与RecyclerView的适配器
  */
 public class MainActivity extends AppCompatActivity {
