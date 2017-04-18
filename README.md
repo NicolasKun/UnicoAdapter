@@ -3,6 +3,9 @@
 
 ---
 
+[ ![Download](https://api.bintray.com/packages/unicolas/maven/nicoadapter/images/download.svg) ](https://bintray.com/unicolas/maven/nicoadapter/_latestVersion)
+[![License](https://img.shields.io/badge/license-Apache%202-green.svg)](https://www.apache.org/licenses/LICENSE-2.0)
+
 在app下的build.gradle中引入
 
 > compile 'im.unicolas:nicoadapter:0.7.0'
