@@ -54,8 +54,7 @@ public abstract class UnicoRecyAdapter<T> extends RecyclerView.Adapter<UnicoView
     public abstract void convert(UnicoViewsHolder holder, T item, int position);
 
     /**
-     * 条目 点击事件  非必重写
-     * 需要的时候就重写
+     * override when you need  :)
      */
     public void itemClickObtain(View view, T item, int position) {
         //

@@ -10,7 +10,6 @@ import java.util.List;
 
 /**
  * Created by unicolas on 2016-6-6.
- * 通用的Adapter
  */
 public abstract class GeneralAdapter<T> extends BaseAdapter {
 

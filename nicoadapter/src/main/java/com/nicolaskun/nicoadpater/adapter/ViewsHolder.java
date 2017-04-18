@@ -12,7 +12,7 @@ import android.widget.TextView;
 
 /**
  * Created by unicolas on 2016-6-6.
- * 通用adapter的ViewHolder
+ * adapter's ViewHolder
  */
 public class ViewsHolder {
     private final SparseArray<View> mViews;
@@ -28,13 +28,7 @@ public class ViewsHolder {
     }
 
     /**
-     * 获得一个ViewsHolder对象
-     * @param context   shangxiawen
-     * @param convertView  内容控件
-     * @param parent     父容器
-     * @param layoutId  布局
-     * @param position   条目
-     * @return
+     * get a ViewsHoldler
      */
     public static ViewsHolder get(Context context,
                                   View convertView,
@@ -48,8 +42,6 @@ public class ViewsHolder {
     }
 
     /**
-     * 通过控件的Id获取相对应的控件 如果没有则加入views
-     * @param viewId  控件Id
      * @param <T>
      * @return
      */
@@ -66,29 +58,18 @@ public class ViewsHolder {
         return contentView;
     }
 
-    //考虑到ListView或者GridView的条目中存在常见的几种控件，遂把他们都整合到ViewHolder中
-
-    /**
-     * 为TextView设置文字
-     */
     public ViewsHolder setText(int viewId, String text) {
         TextView view = getView(viewId);
         view.setText(text);
         return this;
     }
 
-    /**
-     * 为ImageView设置图片
-     */
     public ViewsHolder setImageResource(int viewId, int drawableId) {
         ImageView view = getView(viewId);
         view.setImageResource(drawableId);
         return this;
     }
 
-    /**
-     * 为ImageView设置图片
-     */
     public ViewsHolder setImageBitmap(int viewId, Bitmap bm) {
         ImageView view = getView(viewId);
         view.setImageBitmap(bm);

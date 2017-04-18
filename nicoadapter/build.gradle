@@ -38,10 +38,10 @@ dependencies {
 }
 
 publish {
-    userOrg = 'nicolaskun'//bintray.com用户名
+    userOrg = 'unicolas'//bintray.com用户名
     groupId = 'im.unicolas'//jcenter上的路径
     artifactId = 'nicoadapter'//项目名称
     publishVersion = '0.7.0'//版本号
-    desc = 'general adapter for listview and recyclerview'//描述，不重要
+    desc = 'a prettttty nice general adapter for listview and recyclerview'//描述，不重要
     website = 'https://github.com/NicolasKun/UnicoAdapter'//网站，不重要
 }

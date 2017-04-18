@@ -31,7 +31,6 @@ public class UnicoViewsHolder extends RecyclerView.ViewHolder {
 
     public UnicoViewsHolder setImage(int resId, String url) {
         ImageView iv = (ImageView) getView(resId);
-        //网络图片加载
         return this;
     }
 
