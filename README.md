@@ -3,9 +3,13 @@
 
 ---
 
-### GeneralAdapter
+在app下的build.gradle中引入
 
-> 使用方法如下
+> compile 'im.unicolas:nicoadapter:0.7.0'
+
+#### 使用方法如下
+
+### GeneralAdapter
 
 ```
         generalAdapter = new GeneralAdapter<TestBean>(context,
@@ -21,12 +25,7 @@
         listView.setAdapter(generalAdapter);
 ```
 
-
----
-
 ### UnicoRecyAdapter
-
-> 使用方法如下
 
 ```
         unicoRecyAdapter = new UnicoRecyAdapter<TestBean>(context, list, R.layout.item_test_layout) {
@@ -57,4 +56,4 @@
 > 以上TestBean为示例实体类
 
 
-### END
+## END
