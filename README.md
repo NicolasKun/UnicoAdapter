@@ -9,7 +9,7 @@
 
 #### 使用方法如下
 
-### GeneralAdapter
+- GeneralAdapter
 
 ```
         generalAdapter = new GeneralAdapter<TestBean>(context,
@@ -25,7 +25,7 @@
         listView.setAdapter(generalAdapter);
 ```
 
-### UnicoRecyAdapter
+- UnicoRecyAdapter
 
 ```
         unicoRecyAdapter = new UnicoRecyAdapter<TestBean>(context, list, R.layout.item_test_layout) {
