@@ -6,6 +6,9 @@
 [ ![Download](https://api.bintray.com/packages/unicolas/maven/nicoadapter/images/download.svg) ](https://bintray.com/unicolas/maven/nicoadapter/_latestVersion)
 [![License](https://img.shields.io/badge/license-Apache%202-green.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 
+UnicoAdapter是一个通用的Listview和RecyclerView适配器的集合
+其中RecyclerView的ItemCickListener在适配器内为普通方法   需要时复写
+
 在app下的build.gradle中引入
 
 > compile 'im.unicolas:nicoadapter:0.7.0'
